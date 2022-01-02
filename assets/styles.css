@@ -1,7 +1,8 @@
 :root {
     --gray:#DDDDDD;
     --dark:#222831;
-    --blue:#30475E;
+    --blue:#6497c9;
+    --light-blue: #acc0d4;
     --red:#F05454;
 
     --gray-0:#f9f9fa;
@@ -15,8 +16,8 @@
     --gray-8:#606e79;
     --gray-9:#454e55;
 
-    --fs-h1: 2rem;
-    --fs-h2: 1rem;
+    --fs-h1: 3.5rem;
+    --fs-h2: 2rem;
     --fs-h3: 1.5rem;
     --fs-body: 1rem;
 
@@ -29,6 +30,10 @@
 body {
     font-family: var(--ff-Playfair);
     background-color: var(--gray);
+}
+
+.main-section   {
+    background-color: var(--gray-0);
 }
 
 nav {
@@ -51,8 +56,45 @@ h2{
     font-size: var(--fs-h2);
 }
 
+h3{
+    font-size: var(--fs-h3);
+}
+
+h1, h2, h3 {
+    font-weight:500;
+}
+
 header {
     background-color: var(--blue);
     color: var(--gray);
 }
 
+.profile {
+    max-height: 300px;
+}
+
+.hero {
+    background-color: var(--gray-0);
+}
+
+#footer-row {
+    background-color: var(--gray-7);
+    color: white;
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+}
+
+.message {
+    padding-top: 1rem;
+}
+
+.card:hover {
+    transform: scale(105%);
+    transition-duration: 100ms
+}
+
+@media only screen and (max-width: 600px) {
+    .profile {
+      display: none;
+    }
+  }
