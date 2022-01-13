@@ -93,6 +93,16 @@ header {
     transition-duration: 100ms
 }
 
+.social-container{
+    text-align: center;
+}
+
+.social{
+    font-size: 2.0rem;
+    margin: 1rem;
+    text-decoration: none;
+}
+
 @media only screen and (max-width: 600px) {
     .profile {
       display: none;
