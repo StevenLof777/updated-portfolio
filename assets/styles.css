@@ -29,7 +29,11 @@
  
     font-family: 'Prompt', sans-serif;
     font-family: 'Roboto', sans-serif;
+}
 
+.box {
+    /* max-width: 30rem; */
+    width: 100%;
 }
 
 body {
@@ -65,13 +69,27 @@ h3{
     font-size: var(--fs-h3);
 }
 
+.about-me {
+    padding-top: 3rem;
+    text-align: center;
+}
+
 h1, h2, h3 {
     font-weight:500;
+}
+
+#fullstack-dev {
+    padding-bottom: 2rem;
 }
 
 header {
     background-color: var(--blue);
     color: var(--gray);
+}
+
+.project-header {
+    text-align: center;
+    padding: 3rem;
 }
 
 .profile {
@@ -88,6 +106,11 @@ header {
     animation: bg-animation 25s infinite;
 }
 
+.lang-icons{
+    text-align: center;
+    font-size: 5em;
+}
+
 #footer-row {
     background-color: var(--gray-7);
     color: white;
@@ -101,11 +124,12 @@ header {
 
 .box {
     border: solid green;
+
 }
 
 .box:hover {
-    transform: scale(105%);
-    transition-duration: 100ms
+    transform: scale(102%);
+    transition-duration: 50ms
 }
 
 .social-container{
