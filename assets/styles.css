@@ -1,9 +1,7 @@
 :root {
-    --gray:#DDDDDD;
-    --dark:#222831;
-    --blue:#6497c9;
-    --light-blue: #acc0d4;
-    --red:#F05454;
+    --blue:#4158D0;
+    --purple:#C850C0;
+    --yellow:#FFCC70;
 
     --gray-0:#f9f9fa;
     --gray-1:#eceeef;
@@ -16,7 +14,11 @@
     --gray-8:#606e79;
     --gray-9:#454e55;
 
-    --gradient: linear-gradient(90deg, #ee6352, purple, #ee6352);
+    --gradient: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);
+
+    background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);
+
+    /* background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%); */
 
     --fs-h1: 3.5rem;
     --fs-h2: 2rem;
@@ -29,6 +31,35 @@
  
     font-family: 'Prompt', sans-serif;
     font-family: 'Roboto', sans-serif;
+}
+
+
+.hero {
+    color: white;
+    padding-top: 5rem;
+    text-align: center;
+    padding-bottom: 5rem;
+    width: 100%;
+    background-color: purple;
+    /* background: radial-gradient(closest-side, #3f87a6, #ebf8e1, #f69d3c); */
+    background-image: var(--gradient);
+    /* background-image: radial-gradient(
+        closest-side,
+        var(--blue),
+        var(--purple),
+        var(--yellow)
+    ); */
+    background-size: 600%;
+    animation: move 10s alternate infinite;
+}
+
+@keyframes move {
+    from {
+        background-position: 0%;
+    } 
+    to {
+        background-position: 100% 100%;
+    }
 }
 
 .box {
@@ -110,24 +141,16 @@ header {
     max-height: 300px;
 }
 
-.hero {
-    color: white;
-    padding-top: 5rem;
-    text-align: center;
-    padding-bottom: 5rem;
-    width: 100%;
-    background-image: var(--gradient);
-    animation: bg-animation 25s infinite;
-}
-
 .lang-icons{
     text-align: center;
     font-size: 5em;
 }
 
 .footer-section {
-    background-color: hotpink;
+    padding: 3rem;
+    background-color: white;
     width: 100%;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.172);
 }
 
 #footer-row {
@@ -141,7 +164,7 @@ header {
 }
 
 .box {
-    border: solid green;
+    /* border: solid green; */
 
 }
 
@@ -155,6 +178,7 @@ header {
 }
 
 .social-container{
+    
     text-align: center;
 }
 
