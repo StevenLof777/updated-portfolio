@@ -69,6 +69,20 @@ h3{
     font-size: var(--fs-h3);
 }
 
+.skills-section{
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.172);
+}
+
+.my-skills {
+    padding-top: 3rem;
+    text-align: center;
+}
+
+.skills-section {
+    background-color: white;
+    
+}
+
 .about-me {
     padding-top: 3rem;
     text-align: center;
@@ -111,9 +125,13 @@ header {
     font-size: 5em;
 }
 
+.footer-section {
+    background-color: hotpink;
+    width: 100%;
+}
+
 #footer-row {
-    background-color: var(--gray-7);
-    color: white;
+    background-color: white;
     padding-bottom: 2rem;
     padding-top: 1rem;
 }
@@ -130,6 +148,10 @@ header {
 .box:hover {
     transform: scale(102%);
     transition-duration: 50ms
+}
+
+.project-section {
+    background-color: #98a1a81b;
 }
 
 .social-container{
