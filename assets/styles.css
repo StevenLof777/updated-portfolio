@@ -123,7 +123,7 @@ h1, h2, h3 {
 }
 
 #fullstack-dev {
-    padding-bottom: 2rem;
+    padding-bottom: 1.0rem;
 }
 
 header {
@@ -168,9 +168,25 @@ header {
     transition-duration: 50ms
 }
 
+#resume {
+    border: solid 2px white;
+    padding: 8px 15px;
+    font-size: 2em;
+    background-color: transparent;
+    width: 6rem;
+    border-radius: 20px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 3rem;
+    text-decoration: none;
+}
+
 #resume:hover {
-    transform: scale(102%);
-    transition-duration: 50ms
+    border: none;
+    background-color: green;
+    transition-duration: 100ms
 }
 
 #project-section {
@@ -189,20 +205,7 @@ header {
     color: var(--gray-9);
 }
 
-#resume {
-    border: 0;
-    padding: 10px 20px;
-    font-size: 20px;
-    background-color: white;
-    width: 6rem;
-    border-radius: 20px;
-    color: green;
-    text-transform: uppercase;
-    font-size: 12px;
-    text-align: center;
-    margin-top: 3rem;
-    text-decoration: none;
-}
+
 
 
 @media only screen and (max-width: 600px) {
