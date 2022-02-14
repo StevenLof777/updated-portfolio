@@ -259,8 +259,38 @@ header {
 
 
 
-@media only screen and (max-width: 600px) {
-    .profile {
-      display: none;
+@media only screen and (max-width: 800px) {
+    h1{
+        font-size: 3em;
     }
-  }
+
+    h2{
+        font-size: 2em;
+    }
+
+    h3 {
+        font-size: 1.5em;
+    }
+
+    .row>* {
+        width: auto;
+    }
+
+    .lang-icons{
+        font-size: 3em;
+    }
+
+    .row {
+        --bs-gutter-x: 0;
+        --bs-gutter-y: 0;
+    }
+
+    .project-row {
+        flex-direction: column;
+        width: auto;
+    }
+    .box {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
