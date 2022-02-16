@@ -191,6 +191,7 @@ header {
     opacity: 0;
 }
 
+/* Live demo part */
 .img-container:hover .live-demo{
     opacity: 1;
     color: white;
@@ -200,11 +201,7 @@ header {
     opacity: 1;
     color: white;
     /* filter: blur(4px); */
-    transition-duration: 1000ms
-}
-
-.live-demo:hover .img {
-    opacity: 0.6;
+    transition-duration: 100ms
 }
 
 .img {
@@ -213,7 +210,7 @@ header {
 }
 
 .img:hover {
-    opacity: 0.6;
+    opacity: 0.3;
     filter: blur(4px);
     transition-duration: 100ms
 }
