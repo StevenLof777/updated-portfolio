@@ -199,8 +199,8 @@ header {
 .img-container:hover {
     opacity: 1;
     color: white;
-    filter: blur(4px);
-    transition-duration: 100ms
+    /* filter: blur(4px); */
+    transition-duration: 1000ms
 }
 
 .live-demo:hover .img {
